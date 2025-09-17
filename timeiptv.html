@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>timeIPTV - أفضل خدمة IPTV في المغرب</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Cairo', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-100 font-[Cairo]">
+
+<!-- Header -->
+<header class="bg-purple-800 text-white shadow-lg">
+  <div class="container mx-auto flex justify-between items-center p-4">
+    <h1 class="text-2xl font-bold">timeIPTV</h1>
+    <div class="flex items-center gap-4">
+      <button class="bg-white text-purple-800 px-3 py-1 rounded-full font-semibold">العربية</button>
+      <button class="bg-white text-purple-800 px-3 py-1 rounded-full font-semibold">English</button>
+      <a href="https://wa.me/212632689250" target="_blank" class="bg-green-500 px-3 py-2 rounded-full text-white font-semibold">واتساب</a>
+    </div>
+  </div>
+</header>
+
+<!-- Hero Section with large image -->
+<section class="bg-purple-700 text-white py-16 text-center">
+  <div class="container mx-auto px-4">
+    <h2 class="text-4xl md:text-5xl font-bold mb-6">أفضل خدمة IPTV في المغرب</h2>
+    <p class="mb-6 text-xl md:text-2xl">استمتع بأكثر من 10,000 قناة وأحدث الأفلام والمسلسلات بجودة عالية</p>
+    <p class="mb-8 text-2xl font-bold">اشترك سنويًا فقط <span class="text-yellow-400">250 درهم</span></p>
+    <div class="flex justify-center gap-4 flex-wrap">
+      <a href="#subscribe" class="bg-yellow-400 text-purple-800 px-8 py-4 rounded-xl font-semibold shadow-lg text-lg">اشترك الآن</a>
+      <a href="https://wa.me/212632689250?text=مرحبا%20أريد%20تجربة%20timeIPTV%20مجانية%20لمدة%2024%20ساعة" 
+         target="_blank" 
+         class="bg-white text-purple-800 px-8 py-4 rounded-xl font-semibold shadow-lg text-lg">
+         جرّب مجانًا 24 ساعة
+      </a>
+    </div>
+    <img src="https://via.placeholder.com/1200x400/6b21a8/ffffff?text=IPTV+Hero+Image" alt="IPTV Hero" class="mx-auto mt-10 rounded-xl shadow-lg">
+  </div>
+</section>
+
+<!-- Plans Section -->
+<section id="plans" class="py-12 container mx-auto px-4">
+  <h3 class="text-3xl text-center font-bold text-purple-800 mb-10">اختر الباقة المناسبة لك</h3>
+  <div class="grid md:grid-cols-2 gap-8">
+    <div class="bg-white p-6 rounded-2xl shadow-lg text-center">
+      <h4 class="text-xl font-bold text-purple-800 mb-2">اشتراك سنوي</h4>
+      <p class="text-3xl font-bold text-yellow-500 mb-4">250 درهم</p>
+      <ul class="text-gray-700 mb-6 space-y-2">
+        <li>✔ أكثر من 10,000 قناة</li>
+        <li>✔ أفلام ومسلسلات محدثة</li>
+        <li>✔ قنوات رياضية مميزة</li>
+        <li>✔ دعم فني عبر واتساب</li>
+      </ul>
+      <a href="#subscribe" class="block bg-purple-800 text-white py-2 rounded-xl font-semibold">اشترك الآن</a>
+    </div>
+    <div class="bg-white p-6 rounded-2xl shadow-lg text-center">
+      <h4 class="text-xl font-bold text-purple-800 mb-2">تجربة مجانية</h4>
+      <p class="text-3xl font-bold text-green-500 mb-4">24 ساعة</p>
+      <ul class="text-gray-700 mb-6 space-y-2">
+        <li>✔ نفس مزايا الاشتراك الكامل</li>
+        <li>✔ بدون التزام بالدفع</li>
+      </ul>
+      <a href="https://wa.me/212632689250?text=مرحبا%20أريد%20تجربة%20timeIPTV%20مجانية%20لمدة%2024%20ساعة" 
+         target="_blank" 
+         class="block bg-green-500 text-white py-2 rounded-xl font-semibold">جرّب الآن</a>
+    </div>
+  </div>
+</section>
+
+<!-- Payment Section at the bottom -->
+<section id="subscribe" class="py-12 container mx-auto px-4 bg-white rounded-2xl shadow-lg mb-12">
+  <h3 class="text-2xl font-bold text-purple-800 mb-6 text-center">الدفع والتحويل البنكي</h3>
+  <div class="max-w-xl mx-auto">
+    <p class="mb-4 text-gray-700">لإتمام الاشتراك، يرجى تحويل المبلغ إلى الحساب البنكي التالي:</p>
+    <ul class="text-gray-800 mb-6 space-y-1">
+      <li>🏦 اسم البنك: البنك الشعبي</li>
+      <li>💳 رقم الحساب: <span dir="ltr">164 640 2111116918260015 84</span></li>
+      <li>👤 اسم المستفيد: ADEL OTMANI</li>
+    </ul>
+    <form id="paymentForm" class="space-y-4 bg-gray-100 p-6 rounded-xl shadow-inner" onsubmit="sendMail(event)">
+      <div>
+        <label class="block mb-1 font-semibold text-gray-700">الاسم الكامل</label>
+        <input type="text" name="fullName" class="w-full px-4 py-2 border rounded-lg" placeholder="أدخل اسمك" required>
+      </div>
+      <div>
+        <label class="block mb-1 font-semibold text-gray-700">البريد الإلكتروني</label>
+        <input type="email" name="email" class="w-full px-4 py-2 border rounded-lg" placeholder="example@mail.com" required>
+      </div>
+      <div>
+        <label class="block mb-1 font-semibold text-gray-700">رقم واتساب</label>
+        <input type="text" name="whatsapp" class="w-full px-4 py-2 border rounded-lg" placeholder="+212 6xx xxx xxx" required>
+      </div>
+      <div>
+        <label class="block mb-1 font-semibold text-gray-700">إيصال التحويل</label>
+        <input type="file" name="receipt" class="w-full px-4 py-2 border rounded-lg" required>
+      </div>
+      <button type="submit" class="w-full bg-purple-800 text-white py-3 rounded-xl font-bold">إرسال الطلب</button>
+      <p class="mt-2 text-gray-600 text-sm">سيتوصل بتفعيل الخدمة مباشرة بعد التأكد من الدفع.</p>
+    </form>
+  </div>
+</section>
+
+<script>
+function sendMail(event) {
+  event.preventDefault();
+  const form = event.target;
+  const name = form.fullName.value;
+  const email = form.email.value;
+  const whatsapp = form.whatsapp.value;
+  const subject = "طلب اشتراك timeIPTV";
+  const body = `الاسم الكامل: ${name}%0D%0Aالبريد الإلكتروني: ${email}%0D%0Aرقم واتساب: ${whatsapp}`;
+  window.location.href = `mailto:otmani.ab511542@gmail.com?subject=${subject}&body=${body}`;
+  form.reset();
+  alert('تم فتح البريد الإلكتروني لإرسال بيانات الدفع، سيتوصل بتفعيل الخدمة بعد التأكد من الدفع.');
+}
+</script>
+
+</body>
+</html>
